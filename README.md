@@ -1,1 +1,1 @@
-Twitter home page practice project madd up html and css
+Twitter home page practice project made with html and css
