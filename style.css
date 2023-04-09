@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    
+}
+.icon-container{
+    background-color: white;
+    padding-top: 20rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: fixed;
+    left: 0.1rem;
+    width: 152px;
+    gap: 2rem;
+}
+.icon-container .fa{
+    position: relative;
+    bottom: 20rem;
+    right: 2rem;
+}
+.icon-container .fa:hover{
+    cursor: pointer;
+    
+}
+.icon-container .tweet{
+    position: relative;
+    bottom: 22rem;
+    right: 2.5rem;
+}
+.icon-container .profile-pic{
+    position: relative;
+    bottom: 19rem;
+    right: 4rem;
+}
+
+.home-container{
+    background-color: white;
+    position: relative;
+    right: 7.7rem;
+    padding-top: 3.5rem;
+    width: 95%;
+}
+.home-container h3{
+    position: relative;
+    bottom: 2rem;
+    
+}
+.home-container .fy{
+    position: relative;
+    left: 5rem;
+}
+.home-container .flng{
+    position: relative;
+    bottom: 1.2rem;
+    left: 25rem;
+}
+.pd-section{
+    background-color: white;
+    position: relative;
+    right: 7.7rem;
+    top: 0.1rem;
+    width: 95%;
+    height: 140px;
+    
+}
+.pd-section img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 1rem;
+    top: 0.5rem;
+}
+.pd-section .situation{
+    position: relative;
+    left: 5rem;
+    bottom: 2rem;
+    color: grey;
+    font-size: 24px;
+}
+.pd-section .fa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gif {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    right: 11rem;
+    bottom: 1.3rem;
+}
+.poll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 8.5rem;
+    bottom: 2.8rem;
+    
+}
+.gallery{
+    position: relative;
+    right: 13.5rem;
+    font-size: 20px;
+}
+.emoji{
+    position: relative;
+    right: 6rem;
+    bottom: 4.3rem;
+    font-size: 24px;
+}
+.calender{
+    position: relative;
+    bottom: 5.6rem;
+    font-size: 20px;
+    right: 3rem;
+}
+.location{
+    position: relative;
+    bottom: 7rem;
+    font-size: 20px;
+    right: 0.5rem;
+}
+.tweet-container{
+    height: 100%;
+}
+.tweet-icon{
+    background-color: #1DA1F2;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    left: 32rem;
+    bottom: 7rem;
+}
+.tweet-icon .tweet{
+    color: white;
+    font-weight: 700;
+}
+.tweet-con1{
+    background-color: white;
+    position: relative;
+    top: 0.2rem;
+    right: 7.7rem;
+    width: 95%;
+    height: 470px;
+    
+}
+.tweet-con1 .tv-logo{
+    height: 50px;
+    width: 50px;
+}
+.tweet-container .blog-name{
+    position: relative;
+    left: 3.5rem;
+    bottom: 2.7rem;
+}
+.tweet-con1 .username{
+    position: relative;
+    left: 13rem;
+    bottom: 3.9rem;
+    color: grey;
+}
+.username .fa{
+    position: relative;
+    left: 15rem;
+    color: grey;
+}
+.username .fa:hover{
+    cursor: pointer;
+}
+.tweet-con1 .content{
+    position: relative;
+    left: 3.5rem;
+    bottom: 3.5rem;
+}
+.tweet-con1 .content-pic{
+    width: 85%;
+    position: relative;
+    left: 3.5rem;
+    bottom: 2rem;
+    border-radius: 10px;
+}
+.insights1 .fa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insights1 .comment{
+    position: relative;
+    right: 14rem;
+    bottom: 1rem;
+    color: grey;
+}
+.insights1 .retweet{
+    position: relative;
+    right: 8rem;
+    bottom: 2rem;
+    color: grey;
+}
+.insights1 .likes{
+    position: relative;
+    bottom: 3rem;
+    color: grey;
+}
+.insights1 .views{
+    display: flex;
+    
+    justify-content: center;
+    position: relative;
+    left: 6rem;
+    bottom: 4rem;
+    color: grey;
+}
+.insights1 .share{
+    position: relative;
+    left: 12rem;
+    bottom: 5.3rem;
+    color: grey;
+}
+.tweet-con2{
+    background-color: white;
+    position: relative;
+    top: 0.3rem;
+    right: 7.7rem;
+    width: 95%;
+    height: 105px;
+}
+.tweet-con2 .profile-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+}
+.tweet-con2 .register-sign{
+    width: 20px;
+    position: relative;
+    left: 1rem;
+    bottom: 0.5rem;
+}
+.tweet-con2 .username2{
+    position: relative;
+    left: 6rem;
+    bottom: 2rem;
+    color: grey;
+}
+.username2 .fa{
+    color: grey;
+    position: relative;
+    left: 21rem;
+}
+.tweet-con2 .content{
+    position: relative;
+    left: 4.5rem;
+    bottom: 1.9rem;
+    
+}
+.insights2 .fa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insights2 .comment{
+    position: relative;
+    right: 14rem;
+    bottom: 1rem;
+    color: grey;
+}
+.insights2 .retweet{
+    position: relative;
+    right: 8rem;
+    bottom: 2rem;
+    color: grey;
+}
+.insights2 .likes{
+    position: relative;
+    bottom: 3rem;
+    color: grey;
+}
+.insights2 .views{
+    display: flex;
+    
+    justify-content: center;
+    position: relative;
+    left: 6rem;
+    bottom: 4rem;
+    color: grey;
+}
+.insights2 .share{
+    position: relative;
+    left: 12rem;
+    bottom: 5.3rem;
+    color: grey;
+}
+.tweet-con4{
+    background-color: white;
+    position: relative;
+    top: 0.5rem;
+    right: 7.7rem;
+    width: 95%;
+    height: 120px;
+}
+.tweet-con4 .profile-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+}
+.tweet-con4 .blog-name{
+    position: relative;
+    left: 4.5rem;
+    bottom: 2rem;
+}
+.tweet-con4 .username2{
+    position: relative;
+    left: 8rem;
+    bottom: 3.2rem;
+    color: grey;
+}
+.tweet-con4 .username2 .fa{
+    color: grey;
+    position: relative;
+    left: 19rem;
+}
+.tweet-con4 .content{
+    position: relative;
+    left: 4.5rem;
+    bottom: 3rem;
+    
+}
+.tweet-con4 .insights2 .fa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tweet-con4 .insights2 .comment{
+    position: relative;
+    right: 14rem;
+    bottom: 2rem;
+    color: grey;
+}
+.tweet-con4 .insights2 .retweet{
+    position: relative;
+    right: 8rem;
+    bottom: 3rem;
+    color: grey;
+}
+.tweet-con4 .insights2 .likes{
+    position: relative;
+    bottom: 4rem;
+    color: grey;
+}
+.tweet-con4 .insights2 .views{
+    display: flex;
+    
+    justify-content: center;
+    position: relative;
+    left: 6rem;
+    bottom: 5rem;
+    color: grey;
+}
+.tweet-con4 .insights2 .share{
+    position: relative;
+    left: 12rem;
+    bottom: 6.3rem;
+    color: grey;
+}
+.tweet-con3{
+    background-color: white;
+    position: relative;
+    top: 0.4rem;
+    right: 7.7rem;
+    width: 95%;
+    height: 105px;
+}
+.tweet-con3 .profile-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+}
+.tweet-con3 .register-sign{
+    width: 20px;
+    position: relative;
+    left: 1rem;
+    bottom: 0.5rem;
+}
+.tweet-con3 .username2{
+    position: relative;
+    left: 6rem;
+    bottom: 2rem;
+    color: grey;
+}
+.username2 .fa{
+    color: grey;
+    position: relative;
+    left: 21rem;
+}
+.tweet-con3 .content{
+    position: relative;
+    left: 4.5rem;
+    bottom: 1.9rem;
+    
+}
+.insights2 .fa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insights2 .comment{
+    position: relative;
+    right: 14rem;
+    bottom: 1rem;
+    color: grey;
+}
+.insights2 .retweet{
+    position: relative;
+    right: 8rem;
+    bottom: 2rem;
+    color: grey;
+}
+.insights2 .likes{
+    position: relative;
+    bottom: 3rem;
+    color: grey;
+}
+.insights2 .views{
+    display: flex;
+    
+    justify-content: center;
+    position: relative;
+    left: 6rem;
+    bottom: 4rem;
+    color: grey;
+}
+.insights2 .share{
+    position: relative;
+    left: 12rem;
+    bottom: 5.3rem;
+    color: grey;
+}
+
+
+.search-trends{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    overflow-y: scroll;
+    height: 100%;
+    left: 48.4rem;
+    bottom: 0.5rem;
+    width: 36%;
+    padding-bottom: rem;
+    gap: 3rem;
+}
+.search-trends .search-tab{
+    position: relative;
+    top: 4rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: whitesmoke;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+}
+.search-tab .fa{
+    position: relative;
+    right: 4rem;
+    top: 0.5rem;
+    color: grey;
+    font-size: 20px;
+}
+.search-tab p{
+    position: relative;
+    top: 0.5rem;
+    right: 2rem;
+    color: grey;
+    font-size: 20px;
+}
+.trends-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 100%;
+    width: 300px;
+    position: relative;
+    top: 2rem;
+    right: 2rem;
+    gap: 1rem;
+    border-radius: 10px;
+}
+.trends-con .head{
+    position: relative;
+    right: 4rem;
+    padding-top: 1rem;
+}
+.trends-con .trend{
+    position: relative;
+    right: 3rem;
+}
+.trends-con .fa{
+    position: relative;
+    left: 6rem;
+    color: grey;
+}
+.trends-con .tin{
+    color: grey;
+}
+.trends-con .not{
+    color: grey;
+}
+.sm{
+    position: relative;
+    bottom: rem;
+    color: #1DA1F2;
+}
+.trendm {
+    position: relative;
+    right: inherit;
+}
+.trendm .tin{
+    position: relative;
+    right: 1.5rem;
+}
+.trendm .tin .fa{
+    position: relative;
+    left: 7.3rem;
+}
+.trendm .id7{
+    position: relative;
+    right: 1.5rem;
+}
+.trendm .not{
+    position: relative;
+    right: 1.5rem;
+}
